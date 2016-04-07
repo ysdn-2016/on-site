@@ -1,0 +1,33 @@
+body{
+    width: 910px,.;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+}
+.chart {
+    display: none;
+}
+.bar {
+  fill: #dddddd;
+    transition: fill .4s ease-in-out;
+    margin: 0px;
+}
+
+.bar:hover {
+  fill: #aaaaaa;
+}
+
+.axis {
+  font: 10px sans-serif;
+}
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
