@@ -1,33 +1,19 @@
-body{
-    width: 910px,.;
-    margin: auto;
-    text-align: center;
-    font-family: sans-serif;
-}
-.chart {
-    display: none;
-}
-.bar {
-  fill: #dddddd;
-    transition: fill .4s ease-in-out;
-    margin: 0px;
+body {
+    font: 10px sans-serif;
+    margin: 0;
 }
 
-.bar:hover {
-  fill: #aaaaaa;
+.line {
+    fill: none;
+    stroke: #666;
+    stroke-width: 0px;
 }
 
-.axis {
-  font: 10px sans-serif;
+.area {
+    fill: #e7e7e7;
+    transition: all 0.4s ease-in-out;
 }
-
-.axis path,
-.axis line {
-  fill: none;
-  stroke: #000;
-  shape-rendering: crispEdges;
-}
-
-.x.axis path {
-  display: none;
+.area:hover {
+    fill: #ccc;
+    color: #FFF;
 }
