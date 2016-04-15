@@ -1,17 +1,66 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
-<link href="style.css" rel="stylesheet">
+
 <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.0/angular.min.js"></script>
 <link href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css" rel="stylesheet">
+<link href="style.css" rel="stylesheet">
 <body>
     <div class="container">
+        <div class="row header">
+            <div class="col-md-3">
+                <h1>The Buzz</h1>
+            </div>
+            <div class="col-md-3">
+                <h2>Hours Worked</h2>
+                <h3>9001</h3>
+            </div>
+            <div class="col-md-2">
+                <h2>Students</h2>
+                <h3>95</h3>
+            </div>
+            <div class="col-md-2">
+                <h2>Time</h2>
+                <h3>12:00</h3>
+            </div>
+                
+        </div>
+        <hr>
         <div class="row">
-            <div class="col-md-5" id="charts">
             
+            <div class="col-md-3">
+                <div class="category">
+                    
+                    <img src="packaging-icon.png" class="icon">
+                    <h2>Packaging and Products</h2>
+                </div>
+                
+                <div class="category">
+                    
+                    <img src="interactive-icon.png" class="icon">
+                    <h2>Interactive and Motion</h2>
+                </div>
+                <div class="category">
+                    
+                    <img src="3dsys-icon.png" class="icon">
+                    <h2>Digital and 3D Systems</h2>
+                </div>
+                <div class="category">
+                    
+                    <img src="book-icon.png" class="icon">
+                    <h2>Book and Editorial</h2>
+                </div>
+                <div class="category">
+                    
+                    <img src="print-icon.png" class="icon">
+                    <h2>Print Systems</h2>
             </div>
         </div>
+            <div class="col-md-9" id="charts">
+<!--                This is where the charts will appear-->
+            </div>
+    </div>
     </div>
 <script src="//d3js.org/d3.v3.min.js"></script>
-<script src="script.js"></script>
+<script src="script1.js"></script>
 </body>
 </html>

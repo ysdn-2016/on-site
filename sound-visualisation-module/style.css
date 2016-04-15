@@ -2,18 +2,43 @@ body {
     font: 10px sans-serif;
     margin: 0;
 }
-
+h1{
+    font-size: 48px;
+    font-weight: 600;
+}
+h2{
+    font-size: 24px;
+    font-weight: 600;
+}
+h3{
+    font-size: 18px;
+}
+.category h2{
+    z-index: 20;
+    margin-top: -70px;
+    font-weight: 600;
+}
+.header{
+    margin-top: 50px;
+}
 .line {
     fill: none;
     stroke: #666;
     stroke-width: 0px;
 }
-
+.icon{
+    height: 100px;
+    padding-left: 30px;
+    z-index: 10; 
+}
 .area {
-    fill: #e7e7e7;
+    fill: #7cbee0;
     transition: all 0.4s ease-in-out;
 }
 .area:hover {
-    fill: #ccc;
+    fill: #5bc3b4;
     color: #FFF;
+}
+.category{
+    margin-bottom: 70px;
 }
