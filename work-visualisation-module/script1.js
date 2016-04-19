@@ -1,7 +1,7 @@
 //Modified from http://bl.ocks.org/mbostock/1157787
 
 var margin = {top: 8, right: 0, bottom: 80, left: 0},
-    width = 1600 - margin.left - margin.right,
+    width = 760 - margin.left - margin.right,
     height = 160 - margin.top - margin.bottom;
 
 var parseDate = d3.time.format("%b %Y").parse;

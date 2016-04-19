@@ -18,10 +18,6 @@ h3{
     margin-top: -70px;
     font-weight: 600;
 }
-p.big{
-    font-size: 48px;
-    font-weight: 800;
-}
 .header{
     margin-top: 50px;
 }
@@ -46,7 +42,20 @@ p.big{
 .category{
     margin-bottom: 70px;
 }
-.container{
-    width: 90%;
-    margin-left: 5%;
+
+.axis path,
+.axis line {
+  fill: none;
+  stroke: #000;
+  shape-rendering: crispEdges;
+}
+
+.x.axis path {
+  display: none;
+}
+
+.line {
+  fill: none;
+  stroke: steelblue;
+  stroke-width: 1.5px;
 }
